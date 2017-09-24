@@ -1,0 +1,14 @@
+function ValidarCode(){
+	var variavel = document.getElementById("juquinha");
+	var flag = true;
+
+	if(variavel.value == "Rio" || variavel.value == "rio"){
+		window.location.href = "p2.html#work";
+		return true;
+	}else{
+
+		flag=false;
+		alert("Erou");
+		return false;
+	}
+}
