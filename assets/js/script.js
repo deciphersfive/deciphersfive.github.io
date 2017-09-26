@@ -43,7 +43,7 @@ function ValidarCode3(){
 	}
 }
 
-function ValidarCode3(){
+function ValidarCode4(){
 	var variavel = document.getElementById("juquinha");
 	var flag = true;
 
