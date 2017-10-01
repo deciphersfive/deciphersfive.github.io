@@ -57,3 +57,33 @@ function Validar2(){
 		return false;
 	}
 }
+
+function Validate(){
+	var variavel = document.getElementById("juquinha");
+	var flag = true;
+
+	if(variavel.value == "Penny" || variavel.value == "penny"){
+		window.location.href = "p6.html#work";
+		return true;
+	}else{
+
+		flag=false;
+		alert("Essa era fácil");
+		return false;
+	}
+}
+
+function Validate2(){
+	var variavel = document.getElementById("juquinha");
+	var flag = true;
+
+	if(variavel.value == "Laranja Mecanica" || variavel.value == "laranja mecanica"){
+		window.location.href = "p7.html#work";
+		return true;
+	}else{
+
+		flag=false;
+		alert("O filme é do Tarantino");
+		return false;
+	}
+}
