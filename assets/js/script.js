@@ -32,7 +32,7 @@ function Validar(){
 	var variavel = document.getElementById("juquinha");
 	var flag = true;
 
-	if(variavel.value === "os dias da semana"){
+	if(variavel.value === "os dias da semana" || variavel.value === "Os dias da semana"){
 		window.location.href = "p4.html#work";
 		return true;
 	}else{
